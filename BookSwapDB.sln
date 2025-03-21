@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.35706.149
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookSwapDB", "BookSwapDB.csproj", "{64C023A2-E14A-4BAC-B2DC-5C107C085697}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64C023A2-E14A-4BAC-B2DC-5C107C085697}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64C023A2-E14A-4BAC-B2DC-5C107C085697}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64C023A2-E14A-4BAC-B2DC-5C107C085697}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64C023A2-E14A-4BAC-B2DC-5C107C085697}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {62B9535F-0954-42BD-AE75-BC9026C4422E}
+	EndGlobalSection
+EndGlobal
