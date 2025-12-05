@@ -6,31 +6,31 @@ BookSwap is a modern platform built with C# (ASP.NET Web Forms) and SQL Server, 
 
 ---
 
-## 🖼️ Preview Screenshots  
-صور المعاينة
-![Register](./book1.jpg)  
+## 🖼️ Photo  
+صور المشروع
 Create Account — تسجيل حساب جديد
+![Register](./book1.jpg)  
 
-![Login](./book2.jpg)  
 Login — تسجيل الدخول
+![Login](./book2.jpg) 
 
-![Home](./book3.jpg)  
 Home Page — الصفحة الرئيسية
+![Home](./book3.jpg)  
 
-![Books](./book4.jpg)  
 Available Books — الكتب المتاحة
+![Books](./book4.jpg)  
 
-![Book Details](./book5.jpg)  
 Book Details — تفاصيل الكتاب
+![Book Details](./book5.jpg)  
 
-![Add Book](./book6.jpg)  
 Add New Book — إضافة كتاب
+![Add Book](./book6.jpg)  
 
-![Edit/Delete](./book7.jpg)  
 Edit or Delete — تعديل أو حذف كتاب
+![Edit/Delete](./book7.jpg)  
 
-![Contact](./book8.jpg)  
 Contact Us — تواصل معنا
+![Contact](./book8.jpg)  
 
 ---
 
