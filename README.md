@@ -1,118 +1,121 @@
 # 📚 BookSwap — University Book Exchange Platform  
-# BookSwap — منصة جامعية لبيع وتبادل الكتب
+منصة BookSwap — منصة تبادل الكتب الجامعية
 
-BookSwap is a clean, modern, and fully functional book exchange platform built using C# (ASP.NET Web Forms) and SQL Server.  
-The system allows university students to buy, sell, or exchange books based on major and university, with a smooth interface and complete user authentication flow.
-
-منصة BookSwap هي مشروع متكامل لبيع وتبادل الكتب الجامعية، تم تطويره باستخدام C# — ASP.NET Web Forms مع ربط مباشر بقاعدة بيانات SQL Server.  
-المنصة تتيح للطلاب بيع وتبادل الكتب حسب التخصص و **الجامعة**، مع تجربة مستخدم سلسة، وتصميم حديث، وصفحات تسجيل دخول وتسجيل حساب، وإدارة كاملة للكتب.
+BookSwap is a modern platform built with C# (ASP.NET Web Forms) and SQL Server, designed to help university students exchange, sell, and browse books easily within their college community.  
+تم بناء منصة BookSwap باستخدام C# (ASP.NET Web Forms) وقاعدة بيانات SQL Server، بهدف تسهيل تبادل وبيع واستعراض الكتب بين طلاب الجامعات بطريقة سهلة ومنظمة.
 
 ---
 
 ## 🖼️ Preview Screenshots  
-صور المعاينة بالترتيب (1 → 8):
+صور المعاينة
+![Register](./book1.jpg)  
+Create Account — تسجيل حساب جديد
 
-### 🏠 (1) الصفحة الرئيسية للمنصة  
-![Home](./كتاب1.jpg)
+![Login](./book2.jpg)  
+Login — تسجيل الدخول
 
-### 📚 (2) عرض الكتب المتاحة  
-![Books List](./كتاب2.jpg)
+![Home](./book3.jpg)  
+Home Page — الصفحة الرئيسية
 
-### 📘 (3) تفاصيل الكتاب  
-![Book Details](./كتاب3.jpg)
+![Books](./book4.jpg)  
+Available Books — الكتب المتاحة
 
-### 📝 (4) إضافة كتاب جديد  
-![Add Book](./كتاب4.jpg)
+![Book Details](./book5.jpg)  
+Book Details — تفاصيل الكتاب
 
-### 📗 (5) صفحة تعديل / حذف الكتاب  
-![Edit/Delete](./كتاب5.jpg)
+![Add Book](./book6.jpg)  
+Add New Book — إضافة كتاب
 
-### 📞 (6) تواصل معنا  
-![Contact](./كتاب6.jpg)
+![Edit/Delete](./book7.jpg)  
+Edit or Delete — تعديل أو حذف كتاب
 
-### 🗝️ (7) تسجيل حساب جديد  
-![Register](./كتاب7.jpg)
-
-### 🔐 (8) تسجيل الدخول  
-![Login](./كتاب8.jpg)
+![Contact](./book8.jpg)  
+Contact Us — تواصل معنا
 
 ---
 
 ## ✨ Project Overview  
-## ✨ نظرة عامة على المشروع
+نظرة عامة على المشروع
 
-BookSwap was designed to solve a real problem for university students:  
-finding and exchanging textbooks easily, quickly, and based on their exact major and university.
+BookSwap offers a full ecosystem for students to publish, manage, and explore books based on their major and university, with a clean Arabic RTL interface and secure authentication.  
+يوفّر BookSwap بيئة متكاملة للطلاب لنشر الكتب وإدارتها واستعراضها حسب التخصص والجامعة، مع واجهة عربية مرتّبة ونظام تسجيل دخول آمن.
 
-يهدف المشروع لحل مشكلة يعاني منها طلاب الجامعات:  
-صعوبة إيجاد الكتب المستعملة المناسبة لتخصصهم وجامعتهم.
-
-### يدعم النظام:
-- عرض جميع الكتب المتاحة  
-- إضافة كتاب مع صورة، وصف، تخصص، وحالة الكتاب  
-- تعديل وحذف الكتب  
-- تسجيل حساب جديد وتسجيل الدخول  
-- عرض التفاصيل الكاملة لكل كتاب  
-- التواصل مع الدعم أو البائع  
-- واجهة عربية كاملة وتصميم مريح وسهل الاستخدام
+It solves a real challenge students face: finding affordable and relevant textbooks in their local academic community.  
+ويحل مشكلة حقيقية يعاني منها الطلاب: صعوبة إيجاد كتب مناسبة وبأسعار معقولة داخل مجتمعهم الجامعي.
 
 ---
 
 ## 🛠️ Technologies Used  
-## 🛠️ التقنيات المستخدمة
+التقنيات المستخدمة
 
-### ✔ C# — ASP.NET Web Forms
-- منطق النظام  
-- إدارة المستخدمين  
-- Forms Authentication  
-- التحكم في تدفق الصفحات  
-- عمليات CRUD للكتب
+C# (ASP.NET Web Forms)  
+Used to build system logic, authentication, page interactions, and all backend operations.  
+تُستخدم لبناء منطق النظام ومعالجة الصفحات والتسجيل والدخول وجميع العمليات الخلفية.
 
-### ✔ SQL Server
-- تخزين بيانات الكتب  
-- تخزين المستخدمين  
-- إدارة حالات الكتب  
-- عمليات Insert, Update, Delete, Select  
+SQL Server  
+Stores books, users, images, and all system data with full CRUD operations.  
+يُستخدم لتخزين بيانات الكتب والمستخدمين والصور وجميع بيانات النظام مع دعم كامل لعمليات CRUD.
 
-### ✔ ADO.NET
-- SqlConnection  
-- SqlCommand  
-- DataSet / DataTable  
+ADO.NET  
+Handles database connectivity and command execution.  
+يُستخدم لربط النظام بقاعدة البيانات وتنفيذ الاستعلامات.
 
-### ✔ Visual Studio  
-البيئة الأساسية لتطوير المشروع.
+Visual Studio  
+Main development environment for building, debugging, and managing the system.  
+بيئة التطوير الأساسية لبناء وتشغيل وإدارة المشروع.
 
 ---
 
 ## 🌟 Key Features  
-## 🌟 مميزات المشروع
+أهم المميزات
 
-- 🔐 نظام تسجيل دخول وتسجيل حساب كامل  
-- 📚 إضافة، تعديل، وحذف الكتب  
-- 🎓 فلترة الكتب حسب التخصص والجامعة  
-- 💬 صفحة تواصل مدمجة داخل النظام  
-- 🖼️ رفع صور الكتب وتخزينها داخل النظام  
-- 💾 تكامل قوي مع SQL Server  
-- 🎨 تصميم مرتب ومتناسق، كامل بالعربية (RTL)  
-- 👤 واجهة شخصية لعرض كتب المستخدم
+User Registration & Login  
+Secure authentication system for student accounts.  
+نظام تسجيل دخول آمن يدعم إنشاء الحسابات للطلاب.
+
+Add, Edit, Delete Books  
+Full CRUD system with image upload.  
+نظام CRUD متكامل مع دعم رفع صور الكتب.
+
+Browse Books by Major & University  
+Smart filtering tailored for academic contexts.  
+فلترة ذكية حسب التخصص والجامعة.
+
+Clean Arabic RTL Interface  
+Designed for clarity, comfort, and accessibility.  
+واجهة عربية RTL واضحة وسهلة الاستخدام.
+
+Book Details Page  
+Shows all information with contact and action options.  
+قسم تفاصيل يعرض جميع بيانات الكتاب مع خيارات تواصل وإجراءات.
+
+Contact Support  
+Built-in contact form for assistance.  
+نموذج تواصل مدمج للدعم والاستفسارات.
 
 ---
 
 ## 🎯 What This Project Demonstrates  
-## 🎯 ماذا يثبت هذا المشروع؟
+ماذا يثبت هذا المشروع؟
 
-- احتراف في التعامل مع C# + SQL Server  
-- بناء نظام CRUD متكامل  
-- فهم دورة حياة صفحات Web Forms  
-- تصميم واجهات سهلة الاستخدام  
-- ربط قاعدة البيانات مع الواجهة بطريقة منظمة  
-- التعامل مع رفع الملفات (صور الكتب)  
-- بناء منصة كاملة موجهة لمشكلة حقيقية
+Strong C# and SQL Server skills  
+قدرة عالية على البرمجة بلغة C# والربط مع قواعد بيانات SQL Server.
+
+Building complete real systems (CRUD + Authentication)  
+القدرة على بناء أنظمة حقيقية كاملة تشمل CRUD وتسجيل دخول.
+
+Professional database design and integration  
+تصميم وربط قواعد بيانات بطريقة احترافية.
+
+Arabic RTL interface development  
+احتراف في تصميم واجهات عربية متكاملة RTL.
+
+Real problem-solving for university communities  
+حل مشكلة واقعية تواجه الطلاب وتقديم منصة تخدم احتياجاتهم.
 
 ---
 
 ## 👩‍💻 Developer  
-Teef M. Karyry — TeefDev
+المطورة
 
-Full-Stack Web Developer (C# / ASP.NET / SQL Server)  
-Passionate about building real, functional systems that solve real problems.
+Teef M. Karyry — TeefDev 
