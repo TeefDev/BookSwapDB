@@ -6,6 +6,15 @@ The platform is designed to provide a structured, reliable system that allows un
 This project serves as a demonstration of practical full-stack development skills, including database integration, authentication systems, data management, and user-centered interface design.
 
 
+## Project Overview
+
+BookSwap provides a complete environment that enables students to publish books for sale or exchange, manage their listings, and explore available books categorized by major and university.
+
+The platform features a clean, structured Arabic RTL interface and a secure authentication system to ensure a smooth and reliable user experience.
+
+This project addresses a real challenge in academic communities: helping students quickly find affordable textbooks that match their courses and programs.
+
+
 ## Project Preview
 
 ![Register](./book1.jpg)
@@ -16,15 +25,6 @@ This project serves as a demonstration of practical full-stack development skill
 ![Add Book](./book6.jpg)
 ![Edit/Delete](./book7.jpg)
 ![Contact](./book8.jpg)
-
-
-## Project Overview
-
-BookSwap provides a complete environment that enables students to publish books for sale or exchange, manage their listings, and explore available books categorized by major and university.
-
-The platform features a clean, structured Arabic RTL interface and a secure authentication system to ensure a smooth and reliable user experience.
-
-This project addresses a real challenge in academic communities: helping students quickly find affordable textbooks that match their courses and programs.
 
 
 ## Technologies Used
